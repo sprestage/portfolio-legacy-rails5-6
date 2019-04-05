@@ -5,7 +5,7 @@ Cell: 425-919-3122
 Email: susan.prestage@gmail.com
 
 linkedin.com/in/susanprestage
-portfolio.susanprestage.com
+portfolio.sprestage.com
 github.com/sprestage
 
 Web developer with primary focus of Ruby on Rails. Years of industry experience in the development life cycle, designing, testing, and supporting software and hardware products. Specialist in UNIX environments and TCP/IP networking. I am happiest when deep in code or crafting from a command line.
