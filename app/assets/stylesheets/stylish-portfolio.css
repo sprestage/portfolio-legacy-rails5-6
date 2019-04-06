@@ -124,9 +124,16 @@ body {
 
 /* Skills */
 .skills {
-  background: #7fbbda;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/VistaBoquete.jpg/1028px-VistaBoquete.jpg) no-repeat center center fixed;
   padding: 50px 0;
   color: #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .skill-item {
