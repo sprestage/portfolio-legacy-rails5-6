@@ -1,14 +1,12 @@
 Portfolio
 =========
-This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  This portfolio is in the process of being updated to reflect my current skills.  See other projects in my repository to see examples that don't fit in well
-in the context of a professional portfolio.
+This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio, particularly the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new.
 
-* Rails version 5.2.3
+* Rails version 5.2.6
 
-* Ruby version 2.3.1
+* Ruby version 2.5.1
 
-[![Build Status](https://travis-ci.org/sprestage/portfolio.png?branch=master)](https://travis-ci.org/sprestage/Portfolio) [![Code Climate](https://codeclimate.com/github/sprestage/Portfolio.png)](https://codeclimate.com/github/sprestage/Portfolio) [![Coverage Status](https://coveralls.io/repos/sprestage/Portfolio/badge.png)](https://coveralls.io/r/sprestage/Portfolio) [![Security Status](http://rails-brakeman.com/sprestage/portfolio.png)](http://rails-brakeman.com/sprestage/portfolio) [![endorse](https://api.coderwall.com/sprestage/endorsecount.png)](https://coderwall.com/sprestage)
-
+[![Build Status](https://travis-ci.org/sprestage/portfolio.png?branch=master)](https://travis-ci.org/sprestage/Portfolio) [![Code Climate](https://codeclimate.com/github/sprestage/Portfolio.png)](https://codeclimate.com/github/sprestage/Portfolio) [![Coverage Status](https://coveralls.io/repos/sprestage/Portfolio/badge.png)](https://coveralls.io/r/sprestage/Portfolio)
 [![LinkedIn](http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Susan Prestage's profile on LinkedIn)](http://www.linkedin.com/in/susanprestage)
 
 
@@ -91,7 +89,7 @@ am used in production.
 ## License
 (The MIT License)
 
-Copyright © 2013-2019 Susan Prestage
+Copyright © 2013-2021 Susan Prestage
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
