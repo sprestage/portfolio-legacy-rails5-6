@@ -7,7 +7,6 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 * Ruby version 2.5.1
 
 [![Build Status](https://travis-ci.org/sprestage/portfolio.png?branch=master)](https://travis-ci.org/sprestage/Portfolio) [![Code Climate](https://codeclimate.com/github/sprestage/Portfolio.png)](https://codeclimate.com/github/sprestage/Portfolio) [![Coverage Status](https://coveralls.io/repos/sprestage/Portfolio/badge.png)](https://coveralls.io/r/sprestage/Portfolio)
-[![LinkedIn](http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Susan Prestage's profile on LinkedIn)](http://www.linkedin.com/in/susanprestage)
 
 
 Deployed
