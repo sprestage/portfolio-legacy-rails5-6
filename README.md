@@ -7,6 +7,7 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 * Ruby version 2.5.1
 
 [![Build Status](https://travis-ci.org/sprestage/portfolio.png?branch=master)](https://travis-ci.org/sprestage/Portfolio) [![Code Climate](https://codeclimate.com/github/sprestage/Portfolio.png)](https://codeclimate.com/github/sprestage/Portfolio) [![Coverage Status](https://coveralls.io/repos/sprestage/Portfolio/badge.png)](https://coveralls.io/r/sprestage/Portfolio)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=sprestage-portfolio)]
 
 
 Deployed
