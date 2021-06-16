@@ -3,7 +3,7 @@ Portfolio
 This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  This portfolio is in the process of being updated to reflect my current skills.  See other projects in my repository to see examples that don't fit in well
 in the context of a professional portfolio.
 
-* Rails version 5.2.3
+* Rails version 5.2.5
 
 * Ruby version 2.3.1
 
