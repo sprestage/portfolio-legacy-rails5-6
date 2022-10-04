@@ -2,9 +2,9 @@ Portfolio
 =========
 This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio, particularly the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new.
 
-* Rails version 5.2.5
+* Rails version 6.1.7
 
-* Ruby version 2.3.1
+* Ruby version 2.5.1
 
 [![Build Status](https://travis-ci.org/sprestage/portfolio.png?branch=master)](https://travis-ci.org/sprestage/Portfolio) [![Code Climate](https://codeclimate.com/github/sprestage/Portfolio.png)](https://codeclimate.com/github/sprestage/Portfolio) [![Coverage Status](https://coveralls.io/repos/sprestage/Portfolio/badge.png)](https://coveralls.io/r/sprestage/Portfolio)
 [![Heroku](https://heroku-badge.herokuapp.com/?app=sprestage-portfolio)]
@@ -13,6 +13,13 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 ### How to run server
 After doing a git clone to copy this repository from github to your local, do the following to run the server.
 ```
+% brew update
+% brew doctor
+% pg_ctl -D /usr/local/var/postgres start
+% rvm reinstall ruby-2.5.1                                                              
+% bundle update rails
+% rails app:update
+
 % rake db:setup
 % rake db:migrate
 % rails s   
@@ -20,7 +27,7 @@ After doing a git clone to copy this repository from github to your local, do th
 
 Deployed
 ========
-This portfolio has been deployed to Heroku and can be found here: http://sprestage-portfolio.herokuapp.com
+This portfolio was previously deployed to Heroku (for rails versions 3-5) and can still be found here: http://sprestage-portfolio.herokuapp.com.  This app has been upgraded to rails 6.1.7 and configured for deployment to Render.  Oct 2022
 
 
 Implementation as of 2016
