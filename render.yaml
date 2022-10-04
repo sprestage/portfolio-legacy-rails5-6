@@ -1,6 +1,7 @@
 databases: # Render PostgreSQL database
   - name: sprestage-portfolio-db
-    databaseName: db/portfolio_production
+    databaseName: portfolio_production_db
+    ipAllowList: [] # only allow internal connections
 
 services:
   - type: web # valid values: https://render.com/docs/yaml-spec#type
