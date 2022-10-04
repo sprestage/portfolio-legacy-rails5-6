@@ -2,7 +2,7 @@ Portfolio
 =========
 This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio, particularly the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new.
 
-* Rails version 5.2.6
+* Rails version 6.1.7
 
 * Ruby version 2.5.1
 
@@ -10,9 +10,24 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 [![Heroku](https://heroku-badge.herokuapp.com/?app=sprestage-portfolio)]
 
 
+### How to run server
+After doing a git clone to copy this repository from github to your local, do the following to run the server.
+```
+% brew update
+% brew doctor
+% pg_ctl -D /usr/local/var/postgres start
+% rvm reinstall ruby-2.5.1                                                              
+% bundle update rails
+% rails app:update
+
+% rake db:setup
+% rake db:migrate
+% rails s   
+```
+
 Deployed
 ========
-This portfolio has been deployed to Heroku and can be found here: http://sprestage-portfolio.herokuapp.com
+This portfolio was previously deployed to Heroku (for rails versions 3-5) and can still be found here: http://sprestage-portfolio.herokuapp.com.  This app has been upgraded to rails 6.1.7 and configured for deployment to Render.  Oct 2022
 
 
 Implementation as of 2016
@@ -89,7 +104,11 @@ am used in production.
 ## License
 (The MIT License)
 
+<<<<<<< HEAD
+Copyright © 2013-2022 Susan Prestage
+=======
 Copyright © 2013-2021 Susan Prestage
+>>>>>>> master
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
