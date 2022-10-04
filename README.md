@@ -10,6 +10,14 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 [![Heroku](https://heroku-badge.herokuapp.com/?app=sprestage-portfolio)]
 
 
+### How to run server
+After doing a git clone to copy this repository from github to your local, do the following to run the server.
+```
+% rake db:setup
+% rake db:migrate
+% rails s   
+```
+
 Deployed
 ========
 This portfolio has been deployed to Heroku and can be found here: http://sprestage-portfolio.herokuapp.com
